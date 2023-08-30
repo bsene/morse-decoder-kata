@@ -1,0 +1,49 @@
+--- src/gpt_solution.ts	2023-08-30 23:43:35
++++ src/morse.ts	2023-08-29 20:34:07
+@@ -1,27 +1,26 @@
+ import { reference } from "./dictionary";
+ 
+-export function decodeSentence(entrée: string): string {
+-  const séparateur = "   ";
+-  const toto = decodeWord;
+-  const var_name = " ";
+-  return entrée.split(séparateur).map(toto).join(var_name);
+-}
++export function decode(code: string): string {
++  if (!code) return "";
+ 
+-function decodeLetter(entrée: string): string {
+-  const dictionnaire = reference();
++  const getByKey = (k: string) => reference().get(k) ?? " ";
++  const letters: string[] = [];
++  let group = "";
++  for (const signal of code) {
++    if (signal !== " ") {
++      group += signal;
++      continue;
++    }
+ 
+-  const résultat = dictionnaire.get(entrée);
+-
+-  if (résultat !== undefined) {
+-    return résultat;
+-  } else {
+-    return "";
++    if (group == "") {
++      group += signal;
++      continue;
++    }
++    letters.push(group);
++    group = "";
+   }
+-}
+ 
+-function decodeWord(entrée: string): string {
+-  const séparateur = " ";
+-  const toto = decodeLetter;
+-  const var_name = "";
+-  return entrée.split(séparateur).map(toto).join(var_name);
++  if (group) letters.push(group);
++
++  return letters.map(getByKey).join("");
+ }
