@@ -1,5 +1,6 @@
 import { describe, expect, test } from "vitest";
-import { decode } from "./morse";
+import { decodeSentence } from "./gpt_solution";
+
 describe("Morse decoder specifications", () => {
   test.each([
     ["", ""],
@@ -34,6 +35,6 @@ describe("Morse decoder specifications", () => {
     ],
     ["... --- ...", "SOS"],
   ])("decode morse input", (input: string, expected: string) => {
-    expect(decode(input)).toBe(expected);
+    expect(decodeSentence(input)).toBe(expected);
   });
 });
