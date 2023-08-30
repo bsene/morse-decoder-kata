@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1693430638257" clover="3.2.0">
+  <project timestamp="1693430638257" name="All files">
+    <metrics statements="86" coveredstatements="86" conditionals="12" coveredconditionals="12" methods="3" coveredmethods="3" elements="101" coveredelements="101" complexity="0" loc="86" ncloc="86" packages="1" files="2" classes="2"/>
+    <file name="dictionary.ts" path="/Users/birrame.sene/workspace/morse-decoder/src/dictionary.ts">
+      <metrics statements="60" coveredstatements="60" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="2" count="317" type="stmt"/>
+      <line num="3" count="317" type="stmt"/>
+      <line num="4" count="317" type="stmt"/>
+      <line num="5" count="317" type="stmt"/>
+      <line num="6" count="317" type="stmt"/>
+      <line num="7" count="317" type="stmt"/>
+      <line num="8" count="317" type="stmt"/>
+      <line num="9" count="317" type="stmt"/>
+      <line num="10" count="317" type="stmt"/>
+      <line num="11" count="317" type="stmt"/>
+      <line num="12" count="317" type="stmt"/>
+      <line num="13" count="317" type="stmt"/>
+      <line num="14" count="317" type="stmt"/>
+      <line num="15" count="317" type="stmt"/>
+      <line num="16" count="317" type="stmt"/>
+      <line num="17" count="317" type="stmt"/>
+      <line num="18" count="317" type="stmt"/>
+      <line num="19" count="317" type="stmt"/>
+      <line num="20" count="317" type="stmt"/>
+      <line num="21" count="317" type="stmt"/>
+      <line num="22" count="317" type="stmt"/>
+      <line num="23" count="317" type="stmt"/>
+      <line num="24" count="317" type="stmt"/>
+      <line num="25" count="317" type="stmt"/>
+      <line num="26" count="317" type="stmt"/>
+      <line num="27" count="317" type="stmt"/>
+      <line num="28" count="317" type="stmt"/>
+      <line num="29" count="317" type="stmt"/>
+      <line num="30" count="317" type="stmt"/>
+      <line num="31" count="317" type="stmt"/>
+      <line num="32" count="317" type="stmt"/>
+      <line num="33" count="317" type="stmt"/>
+      <line num="34" count="317" type="stmt"/>
+      <line num="35" count="317" type="stmt"/>
+      <line num="36" count="317" type="stmt"/>
+      <line num="37" count="317" type="stmt"/>
+      <line num="38" count="317" type="stmt"/>
+      <line num="39" count="317" type="stmt"/>
+      <line num="40" count="317" type="stmt"/>
+      <line num="41" count="317" type="stmt"/>
+      <line num="42" count="317" type="stmt"/>
+      <line num="43" count="317" type="stmt"/>
+      <line num="44" count="317" type="stmt"/>
+      <line num="45" count="317" type="stmt"/>
+      <line num="46" count="317" type="stmt"/>
+      <line num="47" count="317" type="stmt"/>
+      <line num="48" count="317" type="stmt"/>
+      <line num="49" count="317" type="stmt"/>
+      <line num="50" count="317" type="stmt"/>
+      <line num="51" count="317" type="stmt"/>
+      <line num="52" count="317" type="stmt"/>
+      <line num="53" count="317" type="stmt"/>
+      <line num="54" count="317" type="stmt"/>
+      <line num="55" count="317" type="stmt"/>
+      <line num="56" count="317" type="stmt"/>
+      <line num="57" count="317" type="stmt"/>
+      <line num="58" count="317" type="stmt"/>
+      <line num="59" count="317" type="stmt"/>
+      <line num="60" count="317" type="stmt"/>
+    </file>
+    <file name="morse.ts" path="/Users/birrame.sene/workspace/morse-decoder/src/morse.ts">
+      <metrics statements="26" coveredstatements="26" conditionals="11" coveredconditionals="11" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="3" count="1" type="cond" truecount="1" falsecount="0"/>
+      <line num="4" count="19" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="18" type="stmt"/>
+      <line num="6" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="7" count="18" type="stmt"/>
+      <line num="8" count="18" type="stmt"/>
+      <line num="9" count="19" type="cond" truecount="1" falsecount="0"/>
+      <line num="10" count="1105" type="cond" truecount="1" falsecount="0"/>
+      <line num="11" count="764" type="stmt"/>
+      <line num="12" count="764" type="stmt"/>
+      <line num="13" count="764" type="cond" truecount="1" falsecount="0"/>
+      <line num="14" count="341" type="stmt"/>
+      <line num="15" count="1105" type="cond" truecount="1" falsecount="0"/>
+      <line num="16" count="42" type="stmt"/>
+      <line num="17" count="42" type="stmt"/>
+      <line num="18" count="42" type="cond" truecount="1" falsecount="0"/>
+      <line num="19" count="299" type="stmt"/>
+      <line num="20" count="299" type="stmt"/>
+      <line num="21" count="299" type="cond" truecount="1" falsecount="0"/>
+      <line num="22" count="18" type="stmt"/>
+      <line num="23" count="18" type="stmt"/>
+      <line num="24" count="18" type="stmt"/>
+      <line num="25" count="18" type="stmt"/>
+      <line num="26" count="18" type="stmt"/>
+    </file>
+  </project>
+</coverage>
